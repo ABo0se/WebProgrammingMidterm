@@ -1,0 +1,320 @@
+body
+{
+    font-family:"Thai Sans Lite";
+}
+h1
+{
+    text-align:center;
+}
+a:hover
+{
+    color:red;
+}
+.flex_container
+{
+    display:flex;
+}
+#exp
+{
+    padding-left:5%;
+    ;padding-right:5%;
+}
+#exp>.flex_container
+{
+    flex-direction:column;
+}
+.Programexp
+{
+    margin-top:30px;
+    margin-bottom:20px;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:auto;
+    height:auto;
+}
+.program
+{
+    max-height:200px;
+    max-width:200px;
+    margin-bottom:-20px;
+}
+body
+{
+    font-family:"Thai Sans Lite";
+}
+a:hover
+{
+    color:red;
+}
+.flex_container
+{
+    display:flex;
+}
+h1
+{
+    text-align:center;
+}
+#main
+{
+    padding-left:5%;
+    padding-right:5%;
+}
+#main>.flex_container
+{
+    flex-direction:column
+}
+#Ava
+{
+    text-align:center;
+    list-style-type:none;
+    padding:0;margin:0;
+}
+a:hover
+{
+    color:red;
+}
+#menuproject>.flex_container
+{
+    padding-top:10%;
+    padding-bottom:10%;
+    text-align:center;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+}
+#Avatar
+{
+    border-radius:50%;
+}
+#Ava
+{
+    text-align:center;
+    list-style-type:none;
+    padding:0;
+    margin:0
+}
+#Name
+{
+    font-size:90%;
+    font-weight: bold;
+}
+#Assignment
+{
+    font-size:90%;
+    font-weight:bold;
+}
+#Major
+{
+    font-size:85%;
+}
+#menuproject
+{
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+#Ava
+{
+    text-align:center;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+body
+{
+    font-family:"Thai Sans Lite";
+}
+h1
+{
+    text-align:center;
+}
+a:hover
+{
+    color:red;
+}
+#menu>.flex_container
+{
+    padding-top:10%;
+    padding-bottom:10%;
+    text-align:center;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+}
+#Avatar
+{
+    border-radius:50%;
+}
+#Ava
+{
+    text-align:center;
+    list-style-type:none;
+    padding:0;margin:0;
+}
+#Name
+{
+    font-size:90%;
+    font-weight:bold
+}
+#Major
+{
+    font-size:85%
+}
+#menu
+{
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%
+}
+@media only screen and (min-width :700px)
+{
+    .grid-container
+    {
+        display:grid;
+        grid-template-columns:300px auto
+        ;grid-template-rows:auto auto;
+        grid-gap:10px;
+    }
+    .grid-container>div
+    {
+        border:1px solid #000;
+        font-size:30px;
+        background-color:azure;
+        border-radius:20px;
+    }
+        #menu
+        {
+            grid-row:1/span 2;
+        }
+        #exp
+        {
+            grid-row:1/span 1;
+        }
+        #classwork
+        {
+            grid-row:2/span 1;
+        }
+}
+@media only screen and (max-width :700px)
+{
+    .grid-container
+    {
+        display:grid;
+        grid-template-columns:auto;
+        grid-gap:10px;
+    }
+    .grid-container>div
+    {
+        border:1px solid #000;
+        background-color:azure;
+        border-radius:20px;
+    }
+    #menu
+    {
+        grid-column:1/span 1;
+    }
+    #exp
+    {
+        grid-column:1/span 1;
+    }
+    #classwork
+    {
+        grid-column:1/span 1;
+    }
+}
+@media only screen and (min-width :700px)
+{
+    .grid-container
+    {
+        display:grid;
+        grid-template-columns:300px auto;
+        grid-template-rows:auto auto;grid-gap:10px
+    }
+    .grid-container>div
+    {
+        border:1px solid #000;
+        font-size:30px;background-color:azure;
+        border-radius:20px;
+    }
+    #menuproject
+    {
+        grid-row:1/span 2;
+    }
+    #exp
+    {
+        grid-row:1/span 1;
+        text-align:left;
+    }
+    #classwork
+    {
+        grid-row:2/span 1;
+        text-align:left;
+    }
+}
+@media only screen and (max-width :700px)
+{
+    .grid-container
+    {
+        display:grid;
+        grid-template-columns:auto;
+        grid-gap:10px;
+    }
+    .grid-container>div
+    {
+        border:1px solid #000;
+        background-color:azure;
+        border-radius:20px;
+    }
+    #menuproject
+    {
+        grid-column:1/span 1;
+    }
+    #exp
+    {
+        grid-column:1/span 1;
+    }
+    #classwork
+    {
+        grid-column:1/span 1;
+    }
+}
+.flex_container
+{
+    flex-direction:column;
+}
+#classwork>.flexmethodcontainer
+{
+    margin-top:30px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:auto;
+    height:auto;
+}
+.flexdomethod
+{
+    vertical-align:top;
+    border-radius:8px;
+    max-width:350px;
+    display:inline-block;
+    height:auto;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:left;
+}
+.method
+{
+    height:auto;
+    max-width:340px;
+    margin-bottom:-20px
+}
+p
+{
+    font-size:28px
+}

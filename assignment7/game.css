@@ -1,0 +1,60 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns : auto;
+}
+#manipulator
+{
+    grid-column: 1/span 1;
+}
+fieldset 
+{
+    max-width: 460px;
+    border: 5px solid #414141;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+fieldset legend
+{
+        background: #414141;
+        color: #fff;
+        padding: 5px 10px ;
+        font-size: 32px;
+        border-radius: 5px;
+        box-shadow: 0 0 0 5px #ddd;
+        margin-left: 20px;
+}
+#game-container 
+{
+    grid-column: 1/span 1;
+	margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url("gamebg.png");
+    border: 3px solid #414141;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #414141;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
